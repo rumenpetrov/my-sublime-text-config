@@ -10,12 +10,14 @@
 * `Babel Snippets`
 * `AdvancedNewFile`
 
+Optional:
+* [FiraCode](https://github.com/tonsky/FiraCode) - font with programming ligatures
+
 ### Settings
 
 ```
 {
-  "binary_file_patterns":
-  [
+  "binary_file_patterns": [
     "*.jpg",
     "*.jpeg",
     "*.png",
@@ -37,8 +39,11 @@
   "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
   "default_line_ending": "unix",
   "draw_white_space": "all",
-  "ignored_packages":
-  [
+  "font_face": "Fira Code",
+  "font_options": [
+    "gray_antialias"
+  ],
+  "ignored_packages": [
     "Vintage"
   ],
   "tab_size": 2,
