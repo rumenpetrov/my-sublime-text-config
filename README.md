@@ -9,6 +9,8 @@
 * `Babel`
 * `Babel Snippets`
 * `AdvancedNewFile`
+* `SublimeLinter`
+* `SublimeLinter-eslint`
 
 Optional:
 * [FiraCode](https://github.com/tonsky/FiraCode) - font with programming ligatures
