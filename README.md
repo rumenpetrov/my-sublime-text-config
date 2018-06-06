@@ -108,6 +108,16 @@ Optional:
     "command": "run_emmet_action",
     "context": [{ "key": "emmet_action_enabled.decrement_number_by_1" }]
   },
+  {
+    "keys": ["alt+shift+up"],
+    "args": {"forward": false},
+    "command": "select_lines",
+  },
+  {
+    "keys": ["alt+shift+down"],
+    "args": {"forward": true} ,
+    "command": "select_lines",
+  },
 ]
 ```
 
