@@ -11,6 +11,16 @@
 * `AdvancedNewFile`
 * `SublimeLinter`
 * `SublimeLinter-eslint`
+* `SublimeLinter-csslint`
+* `SublimeLinter-flow`
+* `SublimeLinter-stylelint`
+* `DocBlockr`
+* `EditorConfig`
+* `SideBarEnhancements`
+* `SyntaxHighlighting for PostCSS`
+* `TypeScript`
+* `TypeScript Syntax`
+* `Vue Syntax Highlight`
 
 Optional:
 * [FiraCode](https://github.com/tonsky/FiraCode) - font with programming ligatures
