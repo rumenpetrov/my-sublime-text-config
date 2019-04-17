@@ -46,15 +46,15 @@ Optional:
 		"*.zip",
 		".svn/",
 		".git/",
-		"package-lock.json",
-	],
-	"folder_exclude_patterns": [
 		"dist/",
 		"build/",
 		"server-build/",
 		"server-build-tmp/",
 		"php/",
 		"node_modules/",
+		"package-lock.json",
+	],
+	"folder_exclude_patterns": [
 		"bower_components/",
 		".next"
 	],
@@ -79,7 +79,6 @@ Optional:
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
-
 ```
 
 ### Key bindings
