@@ -29,41 +29,57 @@ Optional:
 
 ```
 {
-  "binary_file_patterns": [
-    "*.jpg",
-    "*.jpeg",
-    "*.png",
-    "*.gif",
-    "*.ttf",
-    "*.tga",
-    "*.dds",
-    "*.ico",
-    "*.eot",
-    "*.pdf",
-    "*.swf",
-    "*.jar",
-    "*.zip",
-    ".svn/",
-    ".git/",
-    "node_modules/",
-    "bower_components/"
-  ],
-  "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-  "default_line_ending": "unix",
-  "draw_white_space": "all",
-  "font_face": "Fira Code",
-  "font_options": [
-    "gray_antialias"
-  ],
-  "ignored_packages": [
-    "Vintage"
-  ],
-  "tab_size": 2,
-  "theme": "Nexus.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		".svn/",
+		".git/",
+		"package-lock.json",
+	],
+	"folder_exclude_patterns": [
+		"dist/",
+		"build/",
+		"server-build/",
+		"server-build-tmp/",
+		"php/",
+		"node_modules/",
+		"bower_components/",
+		".next"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"default_line_ending": "unix",
+	"draw_white_space": "all",
+	"font_face": "Fira Code",
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"TypeScript",
+		"TypeScript Syntax",
+		"Vintage"
+	],
+	"tab_size": 2,
+	"theme": "Nexus.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
 }
+
 ```
 
 ### Key bindings
