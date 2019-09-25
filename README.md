@@ -7,6 +7,7 @@
 * `Emmet`
 * `JavaScript Snippets`
 * `Babel`
+* `Naomi`
 * `Babel Snippets`
 * `AdvancedNewFile`
 * `SublimeLinter`
@@ -51,11 +52,11 @@ Optional:
 		"server-build/",
 		"server-build-tmp/",
 		"php/",
-		"node_modules/",
-		"package-lock.json",
+		"package-lock.json"
 	],
 	"folder_exclude_patterns": [
 		"bower_components/",
+		"node_modules",
 		".next"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
