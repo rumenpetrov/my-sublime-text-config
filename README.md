@@ -1,6 +1,6 @@
 # Sublime Text 3 configuration
 
-## Packages
+### Packages
 
 ##### Essential
 * `Package Control`
