@@ -12,6 +12,7 @@
 * `SublimeLinter-flow`
 * `EditorConfig`
 * `SideBarEnhancements`
+* `MoveTab`
 
 ##### Optional
 * `DocBlockr`
