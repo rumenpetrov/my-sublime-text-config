@@ -16,14 +16,15 @@
 
 ##### Optional
 * `DocBlockr`
+* `Babel Snippets`
+* `JSX`
+* `JS Custom`
 * `Naomi`
 * `TypeScript`
 * `TypeScript Syntax`
-* `JSX`
 * `Theme Material`
 * `Theme Agila`
 * `JavaScript Snippets`
-* `Babel Snippets`
 * `AdvancedNewFile`
 * `SublimeLinter-stylelint`
 * `SublimeLinter-csslint`
