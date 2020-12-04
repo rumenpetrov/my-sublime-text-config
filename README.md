@@ -33,7 +33,7 @@
 * `SublimeLinter-csslint`
 * `SyntaxHighlighting for PostCSS`
 * `MarkdownPreview`
-* `MDX syntax Highlighting
+* `MDX syntax Highlighting`
 * `Vue Syntax Highlight`
 
 ##### Fonts
@@ -44,15 +44,33 @@
 
 ```
 {
+  "binary_file_patterns": [
+    "*.jpg",
+    "*.jpeg",
+    "*.png",
+    "*.gif",
+    "*.ttf",
+    "*.tga",
+    "*.dds",
+    "*.ico",
+    "*.eot",
+    "*.pdf",
+    "*.swf",
+    "*.jar",
+    "*.zip",
+    ".svn/",
+    ".git/",
+    "dist/",
+    "build/",
+    "server-build/",
+    "server-build-tmp/",
+    "php/",
+    "package-lock.json"
+  ],
   "file_exclude_patterns": [
     "package-lock.json"
   ],
   "folder_exclude_patterns": [
-    "dist",
-    "build",
-    "server-build",
-    "server-build-tmp",
-    "php",
     "bower_components",
     "node_modules",
     ".next"
