@@ -16,10 +16,13 @@
 
 ##### Optional
 * `DocBlockr`
+* `DotENV`
 * `Babel Snippets`
 * `JSX`
 * `JS Custom`
 * `Naomi`
+* `GitGutter`
+* `GraphQL`
 * `TypeScript`
 * `TypeScript Syntax`
 * `Theme Material`
@@ -29,6 +32,8 @@
 * `SublimeLinter-stylelint`
 * `SublimeLinter-csslint`
 * `SyntaxHighlighting for PostCSS`
+* `MarkdownPreview`
+* `MDX syntax Highlighting
 * `Vue Syntax Highlight`
 
 ##### Fonts
