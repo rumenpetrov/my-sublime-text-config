@@ -7,9 +7,6 @@
 * `Theme Nexus`
 * `Emmet`
 * `Babel`
-* `SublimeLinter`
-* `SublimeLinter-eslint`
-* `SublimeLinter-flow`
 * `EditorConfig`
 * `SideBarEnhancements`
 * `MoveTab`
@@ -21,6 +18,7 @@
 * `JSX`
 * `JS Custom`
 * `Naomi`
+* `Git blame`
 * `GitGutter`
 * `GraphQL`
 * `TypeScript`
@@ -29,6 +27,9 @@
 * `Theme Agila`
 * `JavaScript Snippets`
 * `AdvancedNewFile`
+* `SublimeLinter`
+* `SublimeLinter-eslint`
+* `SublimeLinter-flow`
 * `SublimeLinter-stylelint`
 * `SublimeLinter-csslint`
 * `SyntaxHighlighting for PostCSS`
@@ -109,10 +110,6 @@
     ]
   },
   {
-    "keys": ["alt+shift+d"],
-    "command": "duplicate_line",
-  },
-  {
     "keys": ["f10"],
     "command": "reindent",
     "args": {"single_line": false}
@@ -126,38 +123,6 @@
     "command": "paste"
   },
   {
-    "keys": ["ctrl+up"],
-    "command": "scroll_lines",
-    "args": {"amount": 1.0 }
-  },
-  {
-    "keys": ["ctrl+down"],
-    "command": "scroll_lines",
-    "args": {"amount": -1.0 }
-  },
-  {
-    "keys": ["alt+up"],
-    "args": { "action": "increment_number_by_1" },
-    "command": "run_emmet_action",
-    "context": [{ "key": "emmet_action_enabled.increment_number_by_1" }]
-  },
-  {
-    "keys": ["alt+down"],
-    "args": { "action": "decrement_number_by_1" },
-    "command": "run_emmet_action",
-    "context": [{ "key": "emmet_action_enabled.decrement_number_by_1" }]
-  },
-  {
-    "keys": ["alt+shift+up"],
-    "args": {"forward": false},
-    "command": "select_lines",
-  },
-  {
-    "keys": ["alt+shift+down"],
-    "args": {"forward": true} ,
-    "command": "select_lines",
-  },
-    {
     "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [
       {
         "operand": "source.js.jsx",
