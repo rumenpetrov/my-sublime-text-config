@@ -1,20 +1,19 @@
-# Sublime Text 3 configuration
+# My Sublime Text 4 configuration
 
 ### Packages
 
 ##### Essential
 * `Package Control`
-* `Theme Nexus`
 * `Emmet`
 * `Babel`
+* `DocBlockr`
+* `DotENV`
 * `EditorConfig`
 * `SideBarEnhancements`
 * `MoveTab`
 * `A File Icon`
 
 ##### Optional
-* `DocBlockr`
-* `DotENV`
 * `Babel Snippets`
 * `JSX`
 * `JS Custom`
@@ -24,6 +23,7 @@
 * `GraphQL`
 * `TypeScript`
 * `TypeScript Syntax`
+* `Theme Nexus`
 * `Theme Material`
 * `Theme Agila`
 * `JavaScript Snippets`
@@ -46,6 +46,26 @@
 
 ```
 {
+  "ignored_packages": ["Vintage",
+  ],
+  "hide_tab_scrolling_buttons": true,
+  "hide_new_tab_button": true,
+  "show_encoding": true,
+  "show_line_endings": true,
+  "hardware_acceleration": "opengl",
+  "remember_full_screen": true,
+  "default_line_ending": "unix",
+  "draw_white_space": "all",
+  "font_face": "Fira Code",
+  "font_options": [
+    "subpixel_antialias",
+    "gray_antialias"
+  ],
+  "font_size": 11,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": true,
   "binary_file_patterns": [
     "*.jpg",
     "*.jpeg",
@@ -77,23 +97,7 @@
     "node_modules",
     ".next"
   ],
-  "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
-  "default_line_ending": "unix",
-  "draw_white_space": "all",
-  "font_face": "Fira Code",
-  "font_options": [
-    "subpixel_antialias",
-    "gray_antialias"
-  ],
-  "font_size": 11,
-  "ignored_packages": [
-    "Vintage"
-  ],
-  "tab_size": 2,
-  "theme": "Nexus.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": true
+  "color_scheme": "Mariana.sublime-color-scheme",
 }
 ```
 
