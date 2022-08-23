@@ -10,6 +10,7 @@
 * `EditorConfig`
 * `SideBarEnhancements`
 * `MoveTab`
+* `A File Icon`
 
 ##### Optional
 * `DocBlockr`
