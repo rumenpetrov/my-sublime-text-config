@@ -4,6 +4,7 @@
 
 ##### Essential
 * `Package Control`
+* `Material Theme`
 * `Emmet`
 * `Babel`
 * `DocBlockr`
@@ -46,7 +47,8 @@
 
 ```
 {
-  "ignored_packages": ["Vintage",
+  "ignored_packages": [
+    "Vintage",
   ],
   "hide_tab_scrolling_buttons": true,
   "hide_new_tab_button": true,
@@ -61,7 +63,7 @@
     "subpixel_antialias",
     "gray_antialias"
   ],
-  "font_size": 11,
+  "font_size": 9,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
@@ -97,7 +99,14 @@
     "node_modules",
     ".next"
   ],
-  "color_scheme": "Mariana.sublime-color-scheme",
+  "theme": "Material-Theme.sublime-theme",
+  "material_theme_compact_panel": true,
+  "material_theme_contrast_mode": true,
+  "material_theme_small_statusbar": true,
+  "material_theme_bright_scrollbars": true,
+  "material_theme_compact_sidebar": true,
+  "material_theme_small_tab": true,
+  "material_theme_tabs_autowidth": true,
 }
 ```
 
