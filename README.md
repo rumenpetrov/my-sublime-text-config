@@ -114,53 +114,8 @@
 
 ```
 [
-  {"keys": ["tab"], "command": "expand_abbreviation_by_tab", "context":
-    [
-      { "operand": "source.js", "operator": "equal", "match_all": true, "key": "selector" },
-      { "match_all": true, "key": "selection_empty" },
-      { "operator": "equal", "operand": false, "match_all": true, "key": "has_next_field" },
-      { "operand": false, "operator": "equal", "match_all": true, "key": "auto_complete_visible" },
-      { "match_all": true, "key": "is_abbreviation" }
-    ]
-  },
-  {
-    "keys": ["f10"],
-    "command": "reindent",
-    "args": {"single_line": false}
-  },
-  {
-    "keys": ["ctrl+v"],
-    "command": "paste_and_indent"
-  },
-  {
-    "keys": ["ctrl+alt+v"],
-    "command": "paste"
-  },
-  {
-    "keys": ["tab"], "command": "expand_abbreviation_by_tab", "context": [
-      {
-        "operand": "source.js.jsx",
-        "operator": "equal",
-        "match_all": true,
-        "key": "selector"
-      },
-      {
-        "key": "selection_empty",
-        "operator": "equal",
-        "operand": true,
-        "match_all": true
-      }
-    ]
-  },
-  {
-    "keys": ["tab"], "command": "next_field", "context": [
-      {
-        "key": "has_next_field",
-        "operator": "equal",
-        "operand": true
-      }
-    ]
-  },
+  { "keys": ["alt+up"], "command": "swap_line_up" },
+  { "keys": ["alt+down"], "command": "swap_line_down" },
 ]
 ```
 
