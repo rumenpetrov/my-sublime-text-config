@@ -13,6 +13,7 @@
 * `SideBarEnhancements`
 * `MoveTab`
 * `A File Icon`
+* `BracketHighlighter`
 
 ##### Optional
 * `Babel Snippets`
